@@ -1,0 +1,20 @@
+// Program to print numbers from 5 to 1 on screen.
+
+#include <stdio.h>
+
+void Disply()
+{
+    int i = 0;
+
+    while (i >= 1)
+    {
+        printf("%d\n", i);
+        i--;
+    }
+}
+
+int main()
+{
+    Disply();
+    return 0;
+}
